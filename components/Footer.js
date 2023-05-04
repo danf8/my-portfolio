@@ -1,4 +1,4 @@
-import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import Link from 'next/link';
 
 const Footer = (props) =>{

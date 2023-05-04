@@ -10,7 +10,7 @@ const Layout = (props) => {
             {props.children}
             <Footer />
         </>
-    )
+    );
 }
 
 export default Layout;

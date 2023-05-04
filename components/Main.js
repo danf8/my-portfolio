@@ -1,13 +1,12 @@
 import {AiFillGithub} from 'react-icons/ai';
 import {BiLink} from 'react-icons/bi';
-import { investingApp, savingsGoal, travelApp , blackJack} from '@/public/project-data';
 import Link from 'next/link';
 import Header from './Header';
+import projectData from '@/public/project-data.json'
 
 const Main = () => {
-    const myProjects = [investingApp, savingsGoal,travelApp, blackJack];
 
-    const showProject = myProjects.map((p, i) => {
+    const showProject = projectData.map((p, i) => {
        return(
              <section key={i} id='p1' className='py-12 grid grid-row-3 grid-cols-3 grid-flow-col '>
                 <h2 className='font-bold col-start-2 col-span-2 text-3xl text-bg-blueish-50 justify-self-start self-end my-5 w-49'>{p.name}</h2>
