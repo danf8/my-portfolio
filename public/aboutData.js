@@ -1,0 +1,4 @@
+export const softwareEngineer = {
+    technologies: 'Javascript, React, Node.js, Express, MongoDb, SQL Databases, CSS, HTML, Git',
+    about: 'As a Software Engineer, I relish the daily challenges that come with the job. The field constantly pushes me to learn new techniques and explore problems from different angles. Collaboration with others is also a highlight of the job, as it provides opportunities for teaching and learning from one another. Overall, I find my work fulfilling and enjoyable, as it allows me to grow both personally and professionally.   '
+};
