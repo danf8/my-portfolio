@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Daniel Fields",
+        "location": "NY, NY",
+        "linkedin": "https://www.linkedin.com/in/daniel-fields",
+        "github": "https://github.com/daniel-fields",
+        "summary": "As a finance professional with experience in data analysis and problem-solving, I am eager to transition into the field of software engineering. My passion for technology drives me to continuously learn and adapt to new tools and programming languages, enabling me to build efficient and innovative software solutions. Having a keen eye for detail and a collaborative mindset, working closely with team members to create user-friendly interfaces by drawing from consumer feedback to develop cutting-edge software applications.",
+        "skills":  "JavaScript, React, jQuery, Express, Node.js, MongoDB, Mongoose, AJAX, Python, Django, Heroku, Netlify, Postman, Bootstrap, Google Firebase, APIs, PostgreSQL, GIT, GitHub, HTML5, and CSS3",
+        "projects": [
+          {
+            "title": "Blackjack Card Game",
+            "role": "Front-End Developer",
+            "date": "December 2022",
+            "features": [
+            "Develop a minimum viable product (MVP) for a web application for the card game Blackjack using HTML, CSS3, JavaScript, and jQuery.",
+              "Implemented AJAX to request and incorporate external data from the Deck of Cards API into the application",
+              "Used JavaScript and jQuery for game functions and logic",
+              "Designed and styled the application using HTML5, CSS3, and a combination of flex-box and grid layout"
+            ],
+            "link": "https://daniel-fields.github.io/blackjack-card-game/"
+          },
+          {
+            "title": "Travel Application",
+            "role": "Full Stack Developer",
+            "date": "February 2023",
+            "features": [
+              "Developed MVP for a full-stack travel app using Node, Express, MongoDB, JavaScript, EJS, CSS3, and Bootstrap",
+              "Implemented complete CRUD operations",
+              "Utilized Fetch request to a 3rd party API to display the current weather of the travel location"
+            ],
+            "link": "https://travel-app.herokuapp.com/"
+          },
+          {
+            "title": "InvestApp",
+            "role": "Lead Front-End Developer",
+            "date": "May 2023",
+            "features": [
+              "Team project of 4 to develop a single-page MERN-stack application, allowing users to invest in stocks.",
+              "Implement fetch request to backend API to gather and display stock data.",
+              "Make Fetch request to Stock API on the backend to seed local API"
+            ],
+            "link": "https://investapp.netlify.app/"
+          }
+        ],
+        "experience": [
+          {
+            "title": "Oil Derivatives Broker",
+            "company": "Citron Commodities",
+            "location": "New York, NY",
+            "startDate": "March 2021 - Present",
+            "responsibilities": [
+              "Analyze market data and trends in rapidly changing market conditions to provide clients with informed trade ideas, resulting in a $700,000 gain for a specific client",
+              "Developed a new procedure for entering trades to reduce errors using Excel, resulting in a 95% decrease in errors",
+              "Collaborate with 4 team members to deepen client relations, resulting in securing a new $500,000 business client"
+            ]
+        },
+        {
+            "title": "Analyst",
+            "company": "GA Global Markets",
+            "location": "New York, NY",
+            "startDate": "Jan 2019 - Jan 2020",
+            "responsibilities": [
+              "Investigated and analyzed crude oil volatility to provide brokers with real-time analytics and trade ideas to present to clients, leading to an increase in our desk revenue of 15%",
+              "Developed an automated trade confirm program using Excel, reducing trading confirm errors by 85%, resulting in the implementation across departments company-wide"
+            ]
+        }
+        ],
+        "education": [
+            {
+                "name": "Pace University, Lubin School of Business",
+                "degree": "Bachelor of Business Administration, (BBA) in Finance",
+                "endDate": "May 2018"
+            },
+            {
+                "name": "General Assembly",
+                "degree": "Software Engineering Immersive Certificate",
+                "endDate": "May 2023"
+            }
+        ]
+    }
+]
