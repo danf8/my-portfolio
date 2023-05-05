@@ -7,7 +7,7 @@ const Header = () => {
             <h2 id="about-name" className='about-me col-start-2 col-end-3 text-3xl text-peach-50 justify-self-center self-end '>Hi, I am Dan, Software Engineer</h2>
             <p id="my-info" className='about-info about-me col-start-2 col-end-3 text-peach-50 justify-self-center self-center'>{aboutData[0].about}</p>
             <p id="about-tech" className='about-info about-me col-start-2 col-end-3 text-peach-50 justify-self-center '>Technologies I Often Use:{aboutData[0].technologies}</p>
-            <Image priority={true} width={240} height={256} className='row-span-3 col-start-3 col-span-1 justify-items-start self-center rounded-full w-auto' src='/images/headshot.png' alt="Daniel Fields Picture" />
+            <Image priority={true} width={240} height={256} className='row-span-3 col-start-3 col-span-1 justify-items-start self-center rounded-full' src='/images/headshot.png' alt="Daniel Fields Picture" />
             <style jsx>{`
                 .about-me {
                     width: 506px;

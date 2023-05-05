@@ -2,8 +2,8 @@
     {
         "name": "Daniel Fields",
         "location": "NY, NY",
-        "linkedin": "https://www.linkedin.com/in/daniel-fields",
-        "github": "https://github.com/daniel-fields",
+        "linkedin": "https://www.linkedin.com/in/daniel-fields-se/",
+        "github": "https://github.com/danf8",
         "summary": "As a finance professional with experience in data analysis and problem-solving, I am eager to transition into the field of software engineering. My passion for technology drives me to continuously learn and adapt to new tools and programming languages, enabling me to build efficient and innovative software solutions. Having a keen eye for detail and a collaborative mindset, working closely with team members to create user-friendly interfaces by drawing from consumer feedback to develop cutting-edge software applications.",
         "skills":  "JavaScript, React, jQuery, Express, Node.js, MongoDB, Mongoose, AJAX, Python, Django, Heroku, Netlify, Postman, Bootstrap, Google Firebase, APIs, PostgreSQL, GIT, GitHub, HTML5, and CSS3",
         "projects": [
@@ -68,12 +68,14 @@
         "education": [
             {
                 "name": "Pace University, Lubin School of Business",
-                "degree": "Bachelor of Business Administration, (BBA) in Finance",
+                "degree": "Bachelor of Business Administration",
+                "location": "Pleasantville, NY",
                 "endDate": "May 2018"
             },
             {
                 "name": "General Assembly",
                 "degree": "Software Engineering Immersive Certificate",
+                "location": "New York, NY",
                 "endDate": "May 2023"
             }
         ]
