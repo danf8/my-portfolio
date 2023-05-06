@@ -17,18 +17,19 @@ export default function Home() {
           "--scroll",
           userScrollPosition
         );
-        let scrollPosition = userScrollPosition
-        if((window.scrollY / (document.body.offsetHeight - window.innerHeight) > .11)){
-          projectElement.style.setProperty(
-            "--scroll",
-            scrollPosition
-          )
-        } else if((window.scrollY / (document.body.offsetHeight - window.innerHeight) < .11)){
-            projectElement.style.setProperty(
-              "--scroll",
-              0
-            )
-        }
+        // let scrollPosition = userScrollPosition
+        projectElement.style.setProperty(
+          "--scroll",
+          userScrollPosition
+        )
+        // if((window.scrollY / (document.body.offsetHeight - window.innerHeight) > .11)){
+        // }
+        //  else if((window.scrollY / (document.body.offsetHeight - window.innerHeight) < .11)){
+        //     projectElement.style.setProperty(
+        //       "--scroll",
+        //       1
+        //     )
+        // }
       },
       false
     );

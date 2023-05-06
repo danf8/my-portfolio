@@ -3,6 +3,7 @@ import {BiLink} from 'react-icons/bi';
 import Link from 'next/link';
 import Header from './Header';
 import projectData from '@/public/project-data.json'
+import Image from 'next/image';
 
 const Main = () => {
 
@@ -16,7 +17,7 @@ const Main = () => {
                    <Link className='text-xsm col-start-2 col-end-2 row-start-2 justify-self-end self-end ' href={p['github-backend']} target='_blank'><AiFillGithub className='transition ease-in-out delay-50 hover:translate-y-1 hover:scale-110 duration-300 h-6 w-6'/>Backend</Link>
                    ) : ''}
                    <Link className='col-start-2 col-end-2 row-start-2 justify-self-center self-end' href={p.deployed} target='_blank'><BiLink className='transition ease-in-out delay-50 hover:translate-y-1 hover:scale-110 duration-300 h-10 w-10' /></Link>
-                <img id='project-pic' className='drop-shadow-4xl row-span-2 col-start-1 col-end-2 col-span-1 justify-self-center self-center h-48 w-45 rounded-md' src={p.pic} alt="" />
+                    <Image id='project-pic' height={256} width={240} className='drop-shadow-4xl row-span-2 col-start-1 col-end-2 col-span-1 justify-self-center self-center rounded-md' src={p.pic} alt=""  />
                 <style jsx>{`
                    #p1{
                       width: 898px;
@@ -26,8 +27,8 @@ const Main = () => {
                       margin-bottom: 48px;
                    }
                    #project-pic{
-                      width: 238.56px;
-                      height: 192px;
+                      width: auto;
+                      height: auto;
                    }
                 `}</style>
           </section>
@@ -49,9 +50,9 @@ const Main = () => {
                     flex-grow: 1;
                 }
                 .my-info {
-                    animation: showme 5s linear ;
+                    animation: showme 8s linear ;
                     animation-play-state: paused;
-                    animation-delay: calc(var(--scroll) * -15s);
+                    animation-delay: calc(var(--scroll) * -1s);
                 
                     animation-iteration-count: 1;
                     animation-fill-mode: both;
@@ -59,9 +60,9 @@ const Main = () => {
     
                 @keyframes showme {
                     from {
-                    opacity: 0;
-                    }to {
                     opacity: 1;
+                    }to {
+                    opacity: 0;
                     }
                 }
             `}
