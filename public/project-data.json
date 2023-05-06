@@ -9,7 +9,7 @@
         "technologies": "React, Node, Mongoose, MongoDb, Express, Firebase, Netlify, Heroku, Bootstrap"
     },
     {
-        "name": "Savings & Expense Goal",
+        "name": "Saveings & Expense goal",
         "pic": "/images/savingsGoal.png",
         "description": "placeholder..........",
         "github-frontend": "https://github.com/danf8/savings-expense_goal_app",
