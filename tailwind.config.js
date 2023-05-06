@@ -7,10 +7,28 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      // backgroundImage: {
+      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      //   'gradient-conic':
+      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      // }, w;205 h14.5
+      width: {
+        // '95': '375px',
+        'large': '898px',
+        '62': '15.5rem',
+        '92': '23.4375rem',
+        'mobile-pic': '10.6787rem',
+        '82': '20.5rem',
+        '128': '31.625rem',
+        '78': '19.5rem'
+      },
+      height: {
+        '15': '3.75rem',
+        '25': '6.5rem',
+        'mobile': '32.25rem',
+        'mobile-pic': '10.6787rem',
+        '57': '14.5rem',
+
       },
       colors:{
         peach: {
@@ -28,6 +46,9 @@ module.exports = {
       fontSize: {
         xsm: '0.60rem',
       },
+      maxWidth: {
+        mobile: '375px'
+      }
     },
   },
   plugins: [],
