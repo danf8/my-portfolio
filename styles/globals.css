@@ -19,12 +19,12 @@ img {
   width: auto;
   height: auto;
 }
-/* 
+
 @media (max-width: 767px) {
-  body, html {
+  body, #__next {
     max-width: 375px;
   }
-} */
+}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
