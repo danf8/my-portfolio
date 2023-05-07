@@ -4,7 +4,7 @@ import Nav from "./Nav";
 const Layout = (props) => {
     return(
         <>
-            <Nav />
+            <Nav setIsMenuOpen={props.setIsMenuOpen} isMenuOpen={props.isMenuOpen} />
             {props.children}
             <Footer />
         </>

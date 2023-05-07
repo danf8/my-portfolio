@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import { useEffect } from 'react'
-const inter = Inter({ subsets: ['latin'] })
+import Image from 'next/image';
+import Head from 'next/head';
+import { Inter } from 'next/font/google';
+import { useEffect } from 'react';
+const inter = Inter({ subsets: ['latin'] });
 
-import Main from '@/components/Main'
+import Main from '@/components/Main';
 
 export default function Home() {
+
   useEffect(() => {
     window.addEventListener(
       "scroll",
@@ -17,19 +18,10 @@ export default function Home() {
           "--scroll",
           userScrollPosition
         );
-        // let scrollPosition = userScrollPosition
         projectElement.style.setProperty(
           "--scroll",
           userScrollPosition
         )
-        // if((window.scrollY / (document.body.offsetHeight - window.innerHeight) > .11)){
-        // }
-        //  else if((window.scrollY / (document.body.offsetHeight - window.innerHeight) < .11)){
-        //     projectElement.style.setProperty(
-        //       "--scroll",
-        //       1
-        //     )
-        // }
       },
       false
     );
@@ -45,7 +37,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel=""></link>
       </Head>
-      <Main />
+      <Main  />
     </>
   )
-}
+};

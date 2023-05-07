@@ -38,7 +38,8 @@ const MyResume = () => {
 
     const myResume = resumeData.map((data, i) => {
         return(
-            <div key={i} id="projects" className="flex flex-col">
+            <div key={i} id="projects" className="close-menu flex flex-col">
+                <a href="../images/dfResume.pdf" download>Download</a>
                 <div id="about" className="flex flex-row justify-center">
                     <h1>{data.name}</h1>
                     <Link href={data.linkedin} className="px-1" target="_blank">| Linkedin |</Link>

@@ -9,25 +9,10 @@ const Header = () => {
             <p id="my-info" className='about-info  w-82 md:w-128 md:col-start-2 md:col-end-3 text-peach-50 text-base font-normal self-center md:justify-self-center md:self-center'>{aboutData[0].about}</p>
             <p id="about-tech" className='about-info pt-1.5 md:pt-0  w-82 md:w-128 md:col-start-2 md:col-end-3 text-peach-50 text-base font-normal self-center md:justify-self-center '>Technologies I Often Use: {aboutData[0].technologies}</p>
             <style jsx>{`
-                .about-info{
-                    animation: fadein 1s linear ;
-                    animation-play-state: paused;
-                    animation-delay: calc(var(--scroll) * -3s);
-                  
-                    animation-iteration-count: 1;
-                    animation-fill-mode: both;
-                }
                 #pro-pic{
                     width: auto;
                     height: auto;
                  }
-                @keyframes fadein {
-                    from {
-                        opacity: 1;
-                    }to {
-                        opacity: 0;
-                    }
-                }
             `}
             </style>
          </header>
