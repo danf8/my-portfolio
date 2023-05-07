@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = (props) =>{
     const year = new Date().getFullYear()
     return (
-        <footer id='footer' className='max-w-mobile md:max-w-none flex justify-between items-center bg-blueish-50'>
+        <footer id='footer' className=' md:max-w-none flex justify-between items-center bg-blueish-50'>
         <div className='flex pl-5'>
             <Link href='https://www.linkedin.com/in/daniel-fields-se/' target='_blank'><AiFillLinkedin className='text-peach-50 h-12 w-12 md:transition md:ease-in-out md:delay-50 md:hover:translate-y-1 md:hover:scale-110 md:duration-300'/></Link>
             <Link href='https://github.com/danf8' target='_blank'><AiFillGithub className='text-peach-50 h-12 w-12 md:transition md:ease-in-out md:delay-50 md:hover:translate-y-1 md:hover:scale-110 md:duration-300'/></Link>

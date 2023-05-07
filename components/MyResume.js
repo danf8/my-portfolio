@@ -14,7 +14,6 @@ const MyResume = () => {
         )
     });
 
-
     const workExperience = resumeData[0].experience.map((p, i) => {
         return(
             <div key={i}>
@@ -84,6 +83,6 @@ const MyResume = () => {
     });
 
     return myResume;
-} 
+};
 
 export default MyResume;
