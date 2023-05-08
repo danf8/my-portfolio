@@ -57,9 +57,9 @@ module.exports = {
         'zero-auto': '0 auto',
         '23': '5.75rem',
       },
-      // borderColor: {
-      //   'custom-blue': '#21243D',
-      // },
+      padding:{
+        '30': '7.50rem',
+      },
     },
   },
   plugins: [],

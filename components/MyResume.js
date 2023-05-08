@@ -39,12 +39,14 @@ const MyResume = () => {
     const myResume = resumeData.map((data, i) => {
         return(
             <div key={i} id="projects" className="close-menu flex flex-col">
-                <a href="../images/dfResume.pdf" download>Download</a>
-                <div id="about" className="flex flex-row justify-center">
-                    <h1>{data.name}</h1>
-                    <Link href={data.linkedin} className="px-1" target="_blank">| Linkedin |</Link>
-                    <Link href={data.github} target="_blank"> Github |</Link>
-                    <Link href="" className="pl-1">Email</Link>
+                <div id="about" className="flex flex-row justify-center gap-x-0.5 ">
+                    <p>{data.name}</p>
+                    <div>
+                        <Link href={data.linkedin} className="text-sky-600" target="_blank">| Linkedin |</Link>
+                        <Link className="text-sky-600" href={data.github} target="_blank"> Github |</Link>
+                        <Link href="" className="text-sky-600"> Email |</Link>
+                    </div>
+                    <Link className=" text-sky-600" href="../images/dfResume.pdf" target="_blank"> Download</Link>
                 </div>
                 <div className="grid grid-cols-10">
                     <div className="col-start-2 col-end-10">

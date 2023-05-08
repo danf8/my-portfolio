@@ -10,18 +10,18 @@ const Nav = () => {
   };
 
   return (
-    <nav id='nav-comp' className='bg-peach-50 md:bg-peach-50 static w-screen h-15 md:max-w-none md:h-25 py-7 px-10 flex justify-end md:justify-between items-center text-blueish-50' >
-      <Link className='hidden md:flex' scroll={false} href='/'>
-        <h1>Daniel Fields</h1>
+    <nav id='nav-comp' className='bg-peach-50 static w-screen h-15 md:max-w-none md:h-25 md:pr-30 py-7 px-10 flex justify-end md:justify-between items-center text-blueish-50 ' >
+      <Link className='hidden md:flex md:pl-24 hover:translate-y-1 hover:opacity-75 hover:scale-110 duration-300 transition ease-in-out delay-50 ' scroll={false} href='/'>
+        <h1 className='text-2xl'>Daniel Fields</h1>
       </Link>
-      <ul className='hidden md:flex items-center space-x-7'>
-        <Link scroll={false} className='transition ease-in-out delay-50 hover:translate-y-1 hover:scale-110 duration-300' href='/#projects'>
+      <ul className='hidden md:flex md:text-lg items-center space-x-7'>
+        <Link scroll={false} className='transition ease-in-out delay-50 hover:translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#projects'>
           <li>Works</li>
         </Link>
-        <Link scroll={false} className='transition ease-in-out delay-50 hover:translate-y-1 hover:scale-110 duration-300' href='/resume'>
+        <Link scroll={false} className='transition ease-in-out delay-50 hover:translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/resume'>
           <li>Resume</li>
         </Link>
-        <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300' href='/#about'>
+        <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#about'>
           <li>About</li>
         </Link>
       </ul>
@@ -39,7 +39,7 @@ const Nav = () => {
               <li>Resume</li>
             </Link>
             <Link scroll={false} className='' href='/#about'>
-              <li className='focus:bg-slate-500' >About</li>
+              <li className='' >About</li>
             </Link>
           </ul>
           )
