@@ -23,6 +23,7 @@ module.exports = {
         '78': '19.5rem',
         '33': '7.8125rem',
         '224': '56.125rem',
+        'm-pic': '331px',
       },
       height: {
         '15': '3.75rem',
@@ -32,7 +33,6 @@ module.exports = {
         '57': '14.5rem',
         '61': '15.125rem',
         '117': '29.25rem',
-
       },
       colors:{
         peach: {
