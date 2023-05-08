@@ -2,37 +2,41 @@
     {
         "name": "Investing App",
         "pic": "/images/investingApp.png",
-        "description": "placeholder..........",
+        "description": "A web application that allows users to practice trading and investing in stocks. Users can also add comments to an individual stock to provided information to other users on stock performance.",
         "github-frontend": "https://github.com/danf8/investapp-frontend/tree/danf-branch",
         "github-backend": "https://github.com/danf8/investing-buddy-backend/tree/danf-branch",
         "deployed": "https://investing-app-v1.netlify.app/",
-        "technologies": "React, Node, Mongoose, MongoDb, Express, Firebase, Netlify, Heroku, Bootstrap"
+        "technologies": "React, Node, Mongoose, MongoDb, Express, Firebase, Netlify, Heroku, Bootstrap",
+        "class-name": "invest"
     },
     {
-        "name": "Saveings & Expense goal",
+        "name": "Savings & Expense goal",
         "pic": "/images/savingsGoal.png",
-        "description": "placeholder..........",
+        "description": "A web application that allow users to reach a savings goal by tracking their spending and savings habits. Provide insight into where users are spending the most to help them be aware of where they can save.",
         "github-frontend": "https://github.com/danf8/savings-expense_goal_app",
         "github-backend": null,
         "deployed": "https://savingsgoal-0424.herokuapp.com/",
-        "technologies": "Django, Python, Materialize CSS, Jquery, Chartjs, bit.io, Netlify, Heroku"
+        "technologies": "Django, Python, Materialize CSS, Jquery, Chartjs, bit.io, Netlify, Heroku",
+        "class-name": "save-goal"
     },
     {
         "name": "Travel-App",
         "pic": "/images/travelApp.png",
-        "description": "placeeholder",
+        "description": "A web application that users can create destinations they have traveled or will travel to. Users can add local attractions or hotels they haved visited. ",
         "github-frontend": "https://github.com/danf8/Travel-app",
         "github-backend": null,
         "deployed": "https://travel-app-1.herokuapp.com/",
-        "technologies": "Node.js, Express, MongoDb, Javascript, Jquery, CSS, Bootstrap "
+        "technologies": "Node.js, Express, MongoDb, Javascript, Jquery, CSS, Bootstrap ",
+        "class-name": "travel"
     },
     {
         "name": "BlackJack",
         "pic": "/images/blackJack.png",
-        "description": "....placeholder",
+        "description": "A web application that allows the user to play the casino game Blackjack utilzing the Card Deck API.",
         "github-frontend": "https://github.com/danf8/Blackjack-game",
         "github-backend": null,
         "deployed": "https://danf8.github.io/Blackjack-game/",
-        "technologies": "JavaScript, CSS, HTML, Jquery"
+        "technologies": "JavaScript, CSS, HTML, Jquery",
+        "class-name": "blackjack"
     }
 ]
