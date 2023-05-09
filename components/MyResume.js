@@ -73,7 +73,6 @@ const MyResume = () => {
                     </div>
                 </div>
                 <style jsx>{`
-
                     h3{
                         border-bottom: 1px solid #21243D;
                         font-weight: bold;
@@ -84,7 +83,6 @@ const MyResume = () => {
             </div>
         )
     });
-
     return myResume;
 };
 

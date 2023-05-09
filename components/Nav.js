@@ -24,6 +24,9 @@ const Nav = () => {
         <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#about'>
           <li>About</li>
         </Link>
+        <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#footer'>
+          <li>Contact</li>
+        </Link>
       </ul>
       <div onClick={changeMenuState}  className='md:hidden relative'>
           <RxHamburgerMenu  className='relative flex flex-col overflow-hidden items-center justify-center w-[44px] h-[44px]'/>
@@ -41,6 +44,9 @@ const Nav = () => {
             <Link scroll={false} className='' href='/#about'>
               <li className='' >About</li>
             </Link>
+            <Link scroll={false} className='' href='/#footer'>
+          <li>Contact</li>
+        </Link>
           </ul>
           )
         }
