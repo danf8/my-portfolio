@@ -4,7 +4,7 @@
 @import 'tailwindcss/utilities';
 
 body, #__next{
-  font-family: 'Heebo';
+  font-family: 'helvetica';
   background-color: #FCF5EC;
   scroll-behavior: smooth;
 }

@@ -7,22 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-      //   'gradient-conic':
-      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      // },
       width: {
-        // '95': '375px',
         'large': '898px',
         '62': '15.5rem',
         '92': '23.4375rem',
         'mobile-pic': '10.6787rem',
         '82': '20.5rem',
-        '128': '31.625rem',
+        '83': '20.6875rem',
+        '128': '37.5rem',
         '78': '19.5rem',
         '33': '7.8125rem',
         '224': '56.125rem',
+        '360': '90rem',
         'm-pic': '331px',
       },
       height: {
