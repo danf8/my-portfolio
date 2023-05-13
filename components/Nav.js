@@ -24,14 +24,14 @@ const Nav = () => {
         <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#about'>
           <li>About</li>
         </Link>
-        <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#footer'>
+        <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='https://www.linkedin.com/in/daniel-fields-se/' target='_blank'>
           <li>Contact</li>
         </Link>
       </ul>
       <div onClick={changeMenuState}  className='md:hidden relative'>
           <RxHamburgerMenu  className='relative flex flex-col overflow-hidden items-center justify-center w-[44px] h-[44px]'/>
         {isMenuOpen && ( 
-          <ul className='absolute top-full left-0 mt-2 rounded-md shadow-lg bg-white'>
+          <ul className='absolute top-full left-0 mt-2 w-16 text-center rounded-md shadow-lg bg-white'>
             <Link className='' scroll={false} href='/'>
               <h1>Home</h1>
             </Link>
@@ -44,7 +44,7 @@ const Nav = () => {
             <Link scroll={false} className='' href='/#about'>
               <li className='' >About</li>
             </Link>
-            <Link scroll={false} className='' href='/#footer'>
+            <Link scroll={false} className='' href='https://www.linkedin.com/in/daniel-fields-se/' target='_blank'>
           <li>Contact</li>
         </Link>
           </ul>

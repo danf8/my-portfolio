@@ -3,7 +3,6 @@ import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { useEffect } from 'react';
 const inter = Inter({ subsets: ['latin'] });
-
 import Main from '@/components/Main';
 
 export default function Home() {
@@ -26,7 +25,6 @@ export default function Home() {
       false
     );
   });
-
 
   return (
     <>

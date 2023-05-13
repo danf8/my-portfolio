@@ -44,7 +44,6 @@ const MyResume = () => {
                     <div>
                         <Link href={data.linkedin} className="text-sky-600" target="_blank">| Linkedin |</Link>
                         <Link className="text-sky-600" href={data.github} target="_blank"> Github |</Link>
-                        <Link href="" className="text-sky-600"> Email |</Link>
                     </div>
                     <Link className=" text-sky-600" href="../images/dfResume.pdf" target="_blank"> Download</Link>
                 </div>
