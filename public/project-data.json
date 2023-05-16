@@ -2,7 +2,7 @@
     {
         "name": "Investing App",
         "pic": "/images/investingApp.png",
-        "description": "A web application that allows users to practice trading and investing in stocks. Users can also add comments to an individual stock to provided information to other users on stock performance.",
+        "description": "Team project of 4 seeking to provide users with the ability to invest in the stock market to gain experience investing without risking their finances. Seamlessly allowing users to buy and sell stocks, track their performance, and communicate with other users to increase their financial literacy.",
         "github-frontend": "https://github.com/danf8/investapp-frontend/tree/danf-branch",
         "github-backend": "https://github.com/danf8/investing-buddy-backend/tree/danf-branch",
         "deployed": "https://investing-app-v1.netlify.app/",
@@ -12,7 +12,7 @@
     {
         "name": "Savings & Expense goal",
         "pic": "/images/savingsGoal.png",
-        "description": "A web application that allow users to reach a savings goal by tracking their spending and savings habits. Provide insight into where users are spending the most to help them be aware of where they can save.",
+        "description": "Continuing on the theme of financial literacy, I developed a savings and expense tracking app to allow users to set a savings goal and see how long it will take to reach it. Users can input their expenses and savings when they occur and immediately see how it has affected the time to reach their goal.",
         "github-frontend": "https://github.com/danf8/savings-expense_goal_app",
         "github-backend": null,
         "deployed": "https://savingsgoal-0424.herokuapp.com/",
@@ -22,7 +22,7 @@
     {
         "name": "Travel-App",
         "pic": "/images/travelApp.png",
-        "description": "A web application that users can create destinations they have traveled or will travel to. Users can add local attractions or hotels they haved visited. ",
+        "description": "A web application that allow users to create and track their travel plans. Uers can add their trip accomidations and places they want to visit while their.",
         "github-frontend": "https://github.com/danf8/Travel-app",
         "github-backend": null,
         "deployed": "https://travel-app-1.herokuapp.com/",
@@ -32,7 +32,7 @@
     {
         "name": "BlackJack",
         "pic": "/images/blackJack.png",
-        "description": "A web application that allows the user to play the casino game Blackjack utilzing the Card Deck API.",
+        "description": "Created a Blackjack web application that utilizes javascript algorithms to provide an engaging user experience while playing against the dealer. Implemenet Ajax request to API to generate card deck.  ",
         "github-frontend": "https://github.com/danf8/Blackjack-game",
         "github-backend": null,
         "deployed": "https://danf8.github.io/Blackjack-game/",
