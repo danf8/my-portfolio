@@ -12,7 +12,7 @@
     {
         "name": "Savings & Expense goal",
         "pic": "/images/savingsGoal.png",
-        "description": "Continuing on the theme of financial literacy, I developed a savings and expense tracking app to allow users to set a savings goal and see how long it will take to reach it. Users can input their expenses and savings when they occur and immediately see how it has affected the time to reach their goal.",
+        "description": "A savings and expense tracking app to allow users to set a savings goal and see how long it will take to reach it. Users can input their expenses and savings when they occur and immediately see how it has affected the time to reach their goal.",
         "github-frontend": "https://github.com/danf8/savings-expense_goal_app",
         "github-backend": null,
         "deployed": "https://savingsgoal-0424.herokuapp.com/",
