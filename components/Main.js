@@ -10,9 +10,9 @@ const Main = () => {
        return(
              <section key={i} id="p1" className={`${p['class-name']} border-t border-blueish-50 md:m-zero-auto md:mb-23 h-117 md:h-61 md:w-224 py-6 md:py-12 grid grid-cols-2  md:grid-cols-3 md:grid-flow-col  md:max-w-none `}>
                 {p.name === 'Investing App' ? 
-                 <Image priority={true} id='project-pic' height={242} width={331} className='w-83 drop-shadow-4xl col-span-2 md:row-span-2 md:col-start-1 md:col-end-2 md:col-span-1 justify-self-center self-center rounded-md' src={p.pic} alt=""  />
+                 <Image priority={true} id='project-pic' height={242} width={331} className='w-83 h-61 drop-shadow-4xl col-span-2 md:row-span-2 md:col-start-1 md:col-end-2 md:col-span-1 justify-self-center self-center rounded-md' src={p.pic} alt=""  />
                 :
-                <Image id='project-pic' height={242} width={331} className='w-83 drop-shadow-4xl col-span-2 md:row-span-2 md:col-start-1 md:col-end-2 md:col-span-1 justify-self-center self-center rounded-md' src={p.pic} alt=""  />
+                <Image id='project-pic' height={242} width={331} className='w-83 h-61 drop-shadow-4xl col-span-2 md:row-span-2 md:col-start-1 md:col-end-2 md:col-span-1 justify-self-center self-center rounded-md' src={p.pic} alt=""  />
             }
                 <h2 className='font-bold md:pl-16 md:col-start-2 md:col-span-2 text-3xl text-bg-blueish-50 md:justify-self-start self-center md:my-5 md:w-49'>{p.name}</h2>
                 <Link className='col-start-2 col-end-2 row-start-2 md:pl-16 self-center md:self-end' href={p['github-frontend']} target='_blank'><AiFillGithub className='transition ease-in-out delay-50 hover:translate-y-1 hover:scale-110 duration-300 w-9 h-9 md:h-10 md:w-10'/></Link>
