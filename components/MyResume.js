@@ -5,7 +5,7 @@ const MyResume = () => {
 
     const myProjects = resumeData[0].projects.map((p, i) => {
         const projData = p.features.map((feat) => {
-            return(<li>{feat}</li>)
+            return(<li key={i}>{feat}</li>)
         });
 
         return(
@@ -20,7 +20,7 @@ const MyResume = () => {
 
     const workExperience = resumeData[0].experience.map((p, i) => {
         const response = p.responsibilities.map((resp) => {
-            return(<li>{resp}</li>)
+            return(<li key={i}>{resp}</li>)
         });
 
         return(
