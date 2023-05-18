@@ -4,22 +4,30 @@ import resumeData from '@/public/resume-data.json';
 const MyResume = () => {
 
     const myProjects = resumeData[0].projects.map((p, i) => {
+        const projData = p.features.map((feat) => {
+            return(<li>{feat}</li>)
+        });
+
         return(
             <div key={i}>
                 <p className="font-bold">{p.title} | {p.role} | {p.date}</p>
                 <ul className="list-disc list-inside">
-                    <li>{p.features}</li>
+                    {projData}
                 </ul>
             </div>
         )
     });
 
     const workExperience = resumeData[0].experience.map((p, i) => {
+        const response = p.responsibilities.map((resp) => {
+            return(<li>{resp}</li>)
+        });
+
         return(
             <div key={i}>
                 <p className="font-bold">{p.company} | {p.title} | {p.location} | {p.startDate}</p>
                 <ul className="list-disc list-inside">
-                    <li>{p.responsibilities}</li>
+                    {response}
                 </ul>
             </div>
         )
