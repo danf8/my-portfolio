@@ -28,7 +28,7 @@ module.exports = {
         'mobile-pic': '10.6787rem',
         '57': '14.5rem',
         '61': '15.125rem',
-        '117': '29.25rem',
+        '117': '32.25rem',
       },
       colors:{
         peach: {
