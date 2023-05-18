@@ -12,7 +12,7 @@
     {
         "name": "Savings & Expense goal",
         "pic": "/images/savingsGoal.png",
-        "description": "A savings and expense tracking app to allow users to set a savings goal and see how long it will take to reach it. Users can input their expenses and savings when they occur and immediately see how it has affected the time to reach their goal.",
+        "description": "A savings and expense tracking app that allows users to set a savings goal and see how long it will take to reach it. Users can input their expenses and savings when they occur and immediately see how it has affected the time to reach their goal.",
         "github-frontend": "https://github.com/danf8/savings-expense_goal_app",
         "github-backend": null,
         "deployed": "https://savingsgoal-0424.herokuapp.com/",
@@ -22,7 +22,7 @@
     {
         "name": "Travel-App",
         "pic": "/images/travelApp.png",
-        "description": "A web application that allow users to create and track their travel plans. Uers can add their trip accomidations and places they want to visit while their.",
+        "description": "A web application that allows users to create and track their travel plans. Users can add their trip accommodations and places they want to visit while there.",
         "github-frontend": "https://github.com/danf8/Travel-app",
         "github-backend": null,
         "deployed": "https://travel-app-1.herokuapp.com/",
@@ -32,7 +32,7 @@
     {
         "name": "BlackJack",
         "pic": "/images/blackJack.png",
-        "description": "Created a Blackjack web application that utilizes javascript algorithms to provide an engaging user experience while playing against the dealer. Implemenet Ajax request to API to generate card deck.  ",
+        "description": "I created a Blackjack web application that utilizes javascript algorithms to provide an engaging user experience while users play against the dealer. Implement Ajax request to API to generate card deck.",
         "github-frontend": "https://github.com/danf8/Blackjack-game",
         "github-backend": null,
         "deployed": "https://danf8.github.io/Blackjack-game/",
