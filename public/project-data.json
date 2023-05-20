@@ -1,15 +1,5 @@
 [
     {
-        "name": "Investing App",
-        "pic": "/images/investingApp.png",
-        "description": "Team project of 4 seeking to provide users with the ability to invest in the stock market to gain experience investing without risking their finances. Seamlessly allowing users to buy and sell stocks, track their performance, and communicate with other users to increase their financial literacy.",
-        "github-frontend": "https://github.com/danf8/investapp-frontend/tree/danf-branch",
-        "github-backend": "https://github.com/danf8/investing-buddy-backend/tree/danf-branch",
-        "deployed": "https://investing-app-v1.netlify.app/",
-        "technologies": "React, Node, Mongoose, MongoDb, Express, Firebase, Netlify, Heroku, Bootstrap",
-        "class-name": "invest"
-    },
-    {
         "name": "Savings & Expense goal",
         "pic": "/images/savingsGoal.png",
         "description": "A savings and expense tracking app that allows users to set a savings goal and see how long it will take to reach it. Users can input their expenses and savings when they occur and immediately see how it has affected the time to reach their goal.",
