@@ -33,11 +33,21 @@
           {
             "title": "InvestApp",
             "role": "Lead Front-End Developer",
-            "date": "May 2023",
+            "date": "March 2023",
             "features": [
               "Team project of 4 to develop a single-page MERN-stack application, allowing users to invest in stocks.",
               "Implement fetch request to backend API to gather and display stock data.",
               "Make Fetch request to Stock API on the backend to seed local API"
+            ],
+            "link": "https://investapp.netlify.app/"
+          },
+          {
+            "title": "Savings & Expense goal",
+            "role": "Full Stack Developer",
+            "date": "April 2023",
+            "features": [
+              "Saving and expense tracking app developed with Python, Django, and Materialize.",
+              "Ability to input savings and expenses as they occur and immediately see how it has affected users' time till goal."
             ],
             "link": "https://investapp.netlify.app/"
           }
