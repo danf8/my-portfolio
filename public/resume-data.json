@@ -4,52 +4,54 @@
         "location": "NY, NY",
         "linkedin": "https://www.linkedin.com/in/daniel-fields-se/",
         "github": "https://github.com/danf8",
-        "summary": "As a finance professional with experience in data analysis and problem-solving, I am eager to transition into the field of software engineering. My passion for technology drives me to continuously learn and adapt to new tools and programming languages, enabling me to build efficient and innovative software solutions. Having a keen eye for detail and a collaborative mindset, working closely with team members to create user-friendly interfaces by drawing from consumer feedback to develop cutting-edge software applications.",
+        "summary": "Finance professional with experience in data analysis and problem-solving, I am eager to transition into the field of software engineering. Passionate about technology, which drives me to continuously learn and adapt to new tools and programming languages, enabling me to build efficient and innovative software solutions. Having a keen eye for detail and a collaborative mindset, working closely with team members to create user-friendly interfaces by drawing from consumer feedback to develop cutting-edge software applications.",
         "skills":  "JavaScript, React, jQuery, Express, Node.js, MongoDB, Mongoose, AJAX, Python, Django, Heroku, Netlify, Postman, Bootstrap, Google Firebase, APIs, PostgreSQL, GIT, GitHub, HTML5, and CSS3",
         "projects": [
           {
-            "title": "Blackjack Card Game",
-            "role": "Front-End Developer",
-            "date": "December 2022",
+            "title": "Savings & Expense goal",
+            "role": "Full Stack Developer",
+            "date": "April 2023",
             "features": [
-            "Develop a minimum viable product (MVP) for a web application for the card game Blackjack using HTML, CSS3, JavaScript, and jQuery.",
-              "Implemented AJAX to request and incorporate external data from the Deck of Cards API into the application",
-              "Used JavaScript and jQuery for game functions and logic",
-              "Designed and styled the application using HTML5, CSS3, and a combination of flex-box and grid layout"
+              "Developed a full-stack savings and expense tracking application using Python, Django, and Materialize.",
+              "Implemented features that enable users to input savings and expenses in real-time, providing immediate updates on their progress towards their financial goals.",
+              "Integrated user authentication and authorization functionalities to secure user data and provide personalized experiences.",
+              "Implemented data visualization features, such as charts and graphs, to provide users with intuitive visual representations of their savings and expenses."
             ],
-            "link": "https://daniel-fields.github.io/blackjack-card-game/"
+            "link": "https://investapp.netlify.app/"
+          },
+          {
+            "title": "InvestApp",
+            "role": "Front-End Developer",
+            "date": "March 2023",
+            "features": [
+              "Collaborated with a team of 3 developers to design and implement a single-page MERN-stack application that enables users to practice investing in stocks.",
+              "Implemented features such as real-time stock data retrieval, portfolio tracking, and interactive charts for data visualization.",
+              "Utilized RESTful APIs to integrate with the back-end server, enabling seamless data exchange between the client and server.",
+              "Actively participated in code reviews, debugging, and troubleshooting to ensure the application's stability and functionality."
+            ],
+            "link": "https://investapp.netlify.app/"
           },
           {
             "title": "Travel Application",
             "role": "Full Stack Developer",
             "date": "February 2023",
             "features": [
-              "Developed MVP for a full-stack travel app using Node, Express, MongoDB, JavaScript, EJS, CSS3, and Bootstrap",
-              "Implemented complete CRUD operations",
-              "Utilized Fetch request to a 3rd party API to display the current weather of the travel location"
+              "Developed a minimum viable product (MVP) for a full-stack travel application using Node.js, Express, MongoDB, JavaScript, EJS, CSS3, and Bootstrap.",
+              "Implemented full CRUD (Create, Read, Update, Delete) operations, allowing users to manage their travel plans and destinations efficiently.",
+              "Integrated a 3rd party API through Fetch requests to display the current weather information of the travel location, enhancing the app's functionality and providing valuable information to users."
             ],
             "link": "https://travel-app.herokuapp.com/"
           },
           {
-            "title": "InvestApp",
-            "role": "Lead Front-End Developer",
-            "date": "March 2023",
+            "title": "Blackjack Card Game",
+            "role": "Front-End Developer",
+            "date": "December 2022",
             "features": [
-              "Team project of 4 to develop a single-page MERN-stack application, allowing users to invest in stocks.",
-              "Implement fetch request to backend API to gather and display stock data.",
-              "Make Fetch request to Stock API on the backend to seed local API"
+              "Developed a web application for the classic Blackjack card game, utilizing JavaScript algorithms and jQuery to provide an engaging user experience while playing against the dealer.",
+              "Implemented AJAX requests to incorporate external data from the Deck of Cards API, enabling the application to dynamically generate and manage card decks, enhancing the game play experince.",
+              "Designed and styled the application using HTML5, CSS3, and a combination of flex-box and grid layout"
             ],
-            "link": "https://investapp.netlify.app/"
-          },
-          {
-            "title": "Savings & Expense goal",
-            "role": "Full Stack Developer",
-            "date": "April 2023",
-            "features": [
-              "Saving and expense tracking app developed with Python, Django, and Materialize.",
-              "Ability to input savings and expenses as they occur and immediately see how it has affected users' time till goal."
-            ],
-            "link": "https://investapp.netlify.app/"
+            "link": "https://daniel-fields.github.io/blackjack-card-game/"
           }
         ],
         "experience": [
