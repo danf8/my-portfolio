@@ -2,7 +2,7 @@
     {
         "name": "Investing App",
         "pic": "/images/investingApp.png",
-        "description": "Team project of 4 seeking to provide users with the ability to invest in the stock market to gain experience investing without risking their finances. Seamlessly allowing users to buy and sell stocks, track their performance, and communicate with other users to increase their financial literacy.",
+        "description": "Collaborated with a team of 3 developers to design and implement a single-page MERN-stack application that enables users to practice investing in stocks.",
         "github-frontend": "https://github.com/danf8/investapp-frontend/tree/danf-branch",
         "github-backend": "https://github.com/danf8/investing-buddy-backend/tree/danf-branch",
         "deployed": "https://investing-app-v1.netlify.app/",
@@ -32,7 +32,7 @@
     {
         "name": "BlackJack",
         "pic": "/images/blackJack.png",
-        "description": "I created a Blackjack web application that utilizes javascript algorithms to provide an engaging user experience while users play against the dealer. Implement Ajax request to API to generate card deck.",
+        "description": "Developed a web application for the classic Blackjack card game, utilizing JavaScript algorithms and jQuery to provide an engaging user experience while playing against the dealer.",
         "github-frontend": "https://github.com/danf8/Blackjack-game",
         "github-backend": null,
         "deployed": "https://danf8.github.io/Blackjack-game/",

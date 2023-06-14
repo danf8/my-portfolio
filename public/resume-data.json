@@ -48,7 +48,7 @@
             "date": "December 2022",
             "features": [
               "Developed a web application for the classic Blackjack card game, utilizing JavaScript algorithms and jQuery to provide an engaging user experience while playing against the dealer.",
-              "Implemented AJAX requests to incorporate external data from the Deck of Cards API, enabling the application to dynamically generate and manage card decks, enhancing the game play experince.",
+              "Implemented AJAX requests to incorporate external data from the Deck of Cards API, enabling the application to dynamically generate and manage card decks, enhancing the gameplay experince.",
               "Designed and styled the application using HTML5, CSS3, and a combination of flex-box and grid layout"
             ],
             "link": "https://daniel-fields.github.io/blackjack-card-game/"
