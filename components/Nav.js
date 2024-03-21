@@ -18,9 +18,9 @@ const Nav = () => {
         <Link scroll={false} className='transition ease-in-out delay-50 hover:translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#projects'>
           <li>Works</li>
         </Link>
-        <Link scroll={false} className='transition ease-in-out delay-50 hover:translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/resume'>
+        {/* <Link scroll={false} className='transition ease-in-out delay-50 hover:translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/resume'>
           <li>Resume</li>
-        </Link>
+        </Link> */}
         <Link scroll={false} className='transition ease-in-out delay-50 hover:-translate-y-1 hover:opacity-75 hover:scale-110 duration-300' href='/#about'>
           <li>About</li>
         </Link>

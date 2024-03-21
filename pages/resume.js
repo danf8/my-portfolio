@@ -3,7 +3,8 @@ import MyResume from "@/components/MyResume";
 const resume = () => {
     return (
         <div className=''>
-            {/* <MyResume />   */}
+            <h1>hi</h1>
+            <MyResume />  
         </div>
     );
 };
