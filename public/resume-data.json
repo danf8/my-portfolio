@@ -1,95 +1,95 @@
 [
-    {
-        "name": "Daniel Fields",
-        "location": "NY, NY",
-        "linkedin": "https://www.linkedin.com/in/daniel-fields-se/",
-        "github": "https://github.com/danf8",
-        "summary": "Finance professional with experience in data analysis and problem-solving, I am eager to transition into the field of software engineering. Passionate about technology, which drives me to continuously learn and adapt to new tools and programming languages, enabling me to build efficient and innovative software solutions. Having a keen eye for detail and a collaborative mindset, working closely with team members to create user-friendly interfaces by drawing from consumer feedback to develop cutting-edge software applications.",
-        "skills":  "JavaScript, React, jQuery, Express, Node.js, MongoDB, Mongoose, AJAX, Python, Django, Heroku, Netlify, Postman, Bootstrap, Google Firebase, APIs, PostgreSQL, GIT, GitHub, HTML5, and CSS3",
-        "projects": [
-          {
-            "title": "Savings & Expense goal",
-            "role": "Full Stack Developer",
-            "date": "April 2023",
-            "features": [
-              "Developed a full-stack savings and expense tracking application using Python, Django, and Materialize.",
-              "Implemented features that enable users to input savings and expenses in real-time, providing immediate updates on their progress towards their financial goals.",
-              "Integrated user authentication and authorization functionalities to secure user data and provide personalized experiences.",
-              "Implemented data visualization features, such as charts and graphs, to provide users with intuitive visual representations of their savings and expenses."
-            ],
-            "link": "https://investapp.netlify.app/"
-          },
-          {
-            "title": "InvestApp",
-            "role": "Front-End Developer",
-            "date": "March 2023",
-            "features": [
-              "Collaborated with a team of 3 developers to design and implement a single-page MERN-stack application that enables users to practice investing in stocks.",
-              "Implemented features such as real-time stock data retrieval, portfolio tracking, and interactive charts for data visualization.",
-              "Utilized RESTful APIs to integrate with the back-end server, enabling seamless data exchange between the client and server.",
-              "Actively participated in code reviews, debugging, and troubleshooting to ensure the application's stability and functionality."
-            ],
-            "link": "https://investapp.netlify.app/"
-          },
-          {
-            "title": "Travel Application",
-            "role": "Full Stack Developer",
-            "date": "February 2023",
-            "features": [
-              "Developed a minimum viable product (MVP) for a full-stack travel application using Node.js, Express, MongoDB, JavaScript, EJS, CSS3, and Bootstrap.",
-              "Implemented full CRUD (Create, Read, Update, Delete) operations, allowing users to manage their travel plans and destinations efficiently.",
-              "Integrated a 3rd party API through Fetch requests to display the current weather information of the travel location, enhancing the app's functionality and providing valuable information to users."
-            ],
-            "link": "https://travel-app.herokuapp.com/"
-          },
-          {
-            "title": "Blackjack Card Game",
-            "role": "Front-End Developer",
-            "date": "December 2022",
-            "features": [
-              "Developed a web application for the classic Blackjack card game, utilizing JavaScript algorithms and jQuery to provide an engaging user experience while playing against the dealer.",
-              "Implemented AJAX requests to incorporate external data from the Deck of Cards API, enabling the application to dynamically generate and manage card decks, enhancing the gameplay experince.",
-              "Designed and styled the application using HTML5, CSS3, and a combination of flex-box and grid layout"
-            ],
-            "link": "https://daniel-fields.github.io/blackjack-card-game/"
-          }
-        ],
-        "experience": [
-          {
-            "title": "Oil Derivatives Broker",
-            "company": "Citron Commodities",
-            "location": "New York, NY",
-            "startDate": "March 2021 - Present",
-            "responsibilities": [
-              "Analyze market data and trends in rapidly changing market conditions to provide clients with informed trade ideas, resulting in a $700,000 gain for a specific client",
-              "Developed a new procedure for entering trades to reduce errors using Excel, resulting in a 95% decrease in errors",
-              "Collaborate with 4 team members to deepen client relations, resulting in securing a new $500,000 business client"
-            ]
-        },
-        {
-            "title": "Analyst",
-            "company": "GA Global Markets",
-            "location": "New York, NY",
-            "startDate": "Jan 2019 - Jan 2020",
-            "responsibilities": [
-              "Investigated and analyzed crude oil volatility to provide brokers with real-time analytics and trade ideas to present to clients, leading to an increase in our desk revenue of 15%",
-              "Developed an automated trade confirm program using Excel, reducing trading confirm errors by 85%, resulting in the implementation across departments company-wide"
-            ]
-        }
-        ],
-        "education": [
-            {
-                "name": "Pace University, Lubin School of Business",
-                "degree": "Bachelor of Business Administration",
-                "location": "Pleasantville, NY",
-                "endDate": "May 2018"
-            },
-            {
-                "name": "General Assembly",
-                "degree": "Software Engineering Immersive Certificate",
-                "location": "New York, NY",
-                "endDate": "May 2023"
-            }
-        ]
-    }
+    // {
+    //     "name": "Daniel Fields",
+    //     "location": "NY, NY",
+    //     "linkedin": "https://www.linkedin.com/in/daniel-fields-se/",
+    //     "github": "https://github.com/danf8",
+    //     "summary": "Finance professional with experience in data analysis and problem-solving, I am eager to transition into the field of software engineering. Passionate about technology, which drives me to continuously learn and adapt to new tools and programming languages, enabling me to build efficient and innovative software solutions. Having a keen eye for detail and a collaborative mindset, working closely with team members to create user-friendly interfaces by drawing from consumer feedback to develop cutting-edge software applications.",
+    //     "skills":  "JavaScript, React, jQuery, Express, Node.js, MongoDB, Mongoose, AJAX, Python, Django, Heroku, Netlify, Postman, Bootstrap, Google Firebase, APIs, PostgreSQL, GIT, GitHub, HTML5, and CSS3",
+    //     "projects": [
+    //       {
+    //         "title": "Savings & Expense goal",
+    //         "role": "Full Stack Developer",
+    //         "date": "April 2023",
+    //         "features": [
+    //           "Developed a full-stack savings and expense tracking application using Python, Django, and Materialize.",
+    //           "Implemented features that enable users to input savings and expenses in real-time, providing immediate updates on their progress towards their financial goals.",
+    //           "Integrated user authentication and authorization functionalities to secure user data and provide personalized experiences.",
+    //           "Implemented data visualization features, such as charts and graphs, to provide users with intuitive visual representations of their savings and expenses."
+    //         ],
+    //         "link": "https://investapp.netlify.app/"
+    //       },
+    //       {
+    //         "title": "InvestApp",
+    //         "role": "Front-End Developer",
+    //         "date": "March 2023",
+    //         "features": [
+    //           "Collaborated with a team of 3 developers to design and implement a single-page MERN-stack application that enables users to practice investing in stocks.",
+    //           "Implemented features such as real-time stock data retrieval, portfolio tracking, and interactive charts for data visualization.",
+    //           "Utilized RESTful APIs to integrate with the back-end server, enabling seamless data exchange between the client and server.",
+    //           "Actively participated in code reviews, debugging, and troubleshooting to ensure the application's stability and functionality."
+    //         ],
+    //         "link": "https://investapp.netlify.app/"
+    //       },
+    //       {
+    //         "title": "Travel Application",
+    //         "role": "Full Stack Developer",
+    //         "date": "February 2023",
+    //         "features": [
+    //           "Developed a minimum viable product (MVP) for a full-stack travel application using Node.js, Express, MongoDB, JavaScript, EJS, CSS3, and Bootstrap.",
+    //           "Implemented full CRUD (Create, Read, Update, Delete) operations, allowing users to manage their travel plans and destinations efficiently.",
+    //           "Integrated a 3rd party API through Fetch requests to display the current weather information of the travel location, enhancing the app's functionality and providing valuable information to users."
+    //         ],
+    //         "link": "https://travel-app.herokuapp.com/"
+    //       },
+    //       {
+    //         "title": "Blackjack Card Game",
+    //         "role": "Front-End Developer",
+    //         "date": "December 2022",
+    //         "features": [
+    //           "Developed a web application for the classic Blackjack card game, utilizing JavaScript algorithms and jQuery to provide an engaging user experience while playing against the dealer.",
+    //           "Implemented AJAX requests to incorporate external data from the Deck of Cards API, enabling the application to dynamically generate and manage card decks, enhancing the gameplay experince.",
+    //           "Designed and styled the application using HTML5, CSS3, and a combination of flex-box and grid layout"
+    //         ],
+    //         "link": "https://daniel-fields.github.io/blackjack-card-game/"
+    //       }
+    //     ],
+    //     "experience": [
+    //       {
+    //         "title": "Oil Derivatives Broker",
+    //         "company": "Citron Commodities",
+    //         "location": "New York, NY",
+    //         "startDate": "March 2021 - Present",
+    //         "responsibilities": [
+    //           "Analyze market data and trends in rapidly changing market conditions to provide clients with informed trade ideas, resulting in a $700,000 gain for a specific client",
+    //           "Developed a new procedure for entering trades to reduce errors using Excel, resulting in a 95% decrease in errors",
+    //           "Collaborate with 4 team members to deepen client relations, resulting in securing a new $500,000 business client"
+    //         ]
+    //     },
+    //     {
+    //         "title": "Analyst",
+    //         "company": "GA Global Markets",
+    //         "location": "New York, NY",
+    //         "startDate": "Jan 2019 - Jan 2020",
+    //         "responsibilities": [
+    //           "Investigated and analyzed crude oil volatility to provide brokers with real-time analytics and trade ideas to present to clients, leading to an increase in our desk revenue of 15%",
+    //           "Developed an automated trade confirm program using Excel, reducing trading confirm errors by 85%, resulting in the implementation across departments company-wide"
+    //         ]
+    //     }
+    //     ],
+    //     "education": [
+    //         {
+    //             "name": "Pace University, Lubin School of Business",
+    //             "degree": "Bachelor of Business Administration",
+    //             "location": "Pleasantville, NY",
+    //             "endDate": "May 2018"
+    //         },
+    //         {
+    //             "name": "General Assembly",
+    //             "degree": "Software Engineering Immersive Certificate",
+    //             "location": "New York, NY",
+    //             "endDate": "May 2023"
+    //         }
+    //     ]
+    // }
 ]
